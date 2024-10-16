@@ -1,0 +1,61 @@
+@import '_variables';
+@import '_mixins';
+@import '_header';
+@import '_footer';
+
+body {
+    font-family: $font-stack;
+    margin: 0;
+}
+main {
+    padding: 20px;
+    section {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 5px;
+
+        h2 {
+            color: $primary-color;
+        }
+
+        .gallery {
+            align-content: space-between;
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content:space-around;
+            }
+
+            .col {
+                box-sizing: border-box;
+            }
+
+            .card {
+                background-color: $card-color;
+                color: $card-p;
+                border-radius: 5px;
+                border: 2px solid $secondary-color;
+
+                img {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+
+            .card-body {
+                padding: 20px;
+            }
+
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #f4f4f4;
+                color: $secondary-color;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,81 @@
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+main section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+main section h2 {
+  color: #3498db;
+}
+main section .gallery {
+  align-content: space-between;
+}
+main section .gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+main section .gallery .col {
+  box-sizing: border-box;
+}
+main section .gallery .card {
+  background-color: #000000;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 2px solid #2ecc71;
+}
+main section .gallery .card img {
+  width: 100%;
+  max-width: 300px;
+}
+main section .gallery .card-body {
+  padding: 20px;
+}
+main section .gallery .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  color: #2ecc71;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
